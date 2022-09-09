@@ -1,0 +1,247 @@
+.content-banner {
+  background-color: #f5f5f8;
+}
+.banner-wrapper {
+  width: 100%;
+  min-height: 714px;
+  padding: 120px 0 80px 71px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner .content {
+  max-width: 711px;
+  margin-top: 15px;
+}
+.banner .content .pre-title {
+  margin-bottom: 24px;
+  color: #ABACB1;
+  font-weight: 400;
+  font-size: 16px;
+  line-height:22.4px;
+}
+.banner .content h2 {
+  font-size: 56px;
+  line-height: 67.2px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 24px;
+  color: #2c303b;
+}
+.banner .content p {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 48px;
+  max-width: 690px;
+}
+.banner .content .text-mobile {
+  display: none;
+}
+.banner .content .banner-link {
+  max-width: 331px;
+  height: 48px;
+  border: none;
+  background-color: #28245C;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .content .banner-link:hover {
+  background-color: #7E7C9D;
+}
+/* .banner .content .banner-link:focus-within {
+  border: 2px dashed #D4D3DE;
+}
+.banner .content .banner-link:active {
+  outline: 2px dashed #D4D3DE;
+} */
+.banner .image {
+  position: relative;
+  max-width: 607px;
+  width: 100%;
+  height: 570px;
+  overflow: hidden;
+  display: block;
+}
+.banner .image-mobile {
+ display: none;
+}
+.banner .image .banner1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+  aspect-ratio: 6/5;
+}
+.banner .image .banner2 {
+  position: absolute;
+  top: 123px;
+  left: 36px;
+  width: 440px;
+}
+.banner .image .background {
+  background-color: #ff865d;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 39px;
+}
+@media (max-width: 1366px) {
+  .banner .content {
+    max-width: 400px;
+  }
+  .banner .content h2 {
+    font-size: 48px;
+  }
+  .banner .content .email-input div {
+    max-width: 380px;
+    justify-content: space-between;
+  }
+  .banner .content .email-input div button {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 1100px) {
+  .banner-wrapper {
+    min-height: 600px;
+    padding: 60px 0 60px 40px;
+  }
+  .banner .image {
+    width: 500px;
+  }
+}
+@media (max-width: 992px) {
+  .banner .content {
+    max-width: 300px;
+  }
+  .banner .image {
+    width: 500px;
+    max-height: 450px;
+  }
+  .banner .image .banner2 {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    object-fit: cover;
+    aspect-ratio: 1 / 2;
+    transform: scale(0.8);
+  }
+  .banner .content h2 {
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 24px;
+    color: #2c303b;
+  }
+  .banner .content p {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 48px;
+    max-width: 690px;
+  }
+}
+@media (max-width: 820px) {
+  .banner-wrapper {
+    padding: 56px 0 0 0;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner .content .pre-title {
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+  .banner .content h2 {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
+  .banner .content p {
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 40px;
+  }
+  
+  .banner .content {
+    max-width: unset;
+    margin-right: 0px;
+    margin-bottom: 0;
+    padding: 0 32px;
+    margin-top: 0;
+  }
+  .banner .image {
+    display: none;
+  }
+  .banner .image-mobile {
+    display: block;
+    position: relative;
+  width: 100%;
+  height: 320.4px;
+  overflow: hidden;
+  margin-top: 78px;
+  }
+  .banner .image-mobile .background {
+    background-color: #ff865d;
+    width: 100%;
+    height: 93%;
+    position: absolute;
+    top: 20px;
+  }
+  .banner .image-mobile .banner1 {
+    position: absolute;
+    top: -2px;
+    right: 20%;
+    object-fit: cover;
+    width: 267px;
+  }
+  .banner .image-mobile .banner2 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    object-fit: cover;
+    width: 267px;
+  }
+}
+@media (max-width:480px) {
+  .banner .image-mobile .banner1 {
+    right: 2px;
+  }
+  .banner .image-mobile .banner2 {
+    top: 18%;
+    left: 2px;
+  }
+  .banner .content .banner-link {
+    width: 100%;
+    max-width: unset;
+    height: 50px;
+  }
+  .banner .content .text-desktop {
+    display: none;
+  }
+  .banner .content .text-mobile {
+    display: block;
+  }
+}
+@media (max-width:390px) {
+  .banner .image-mobile .banner1 {
+    right: 0;
+  }
+  .banner .image-mobile .banner2 {
+    left: 0;
+  }
+  .banner .content .banner-link {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

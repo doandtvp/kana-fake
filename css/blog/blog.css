@@ -1,0 +1,204 @@
+.wrap__blog__page {
+  /* padding: 80px 0 0 0; */
+  background-color: #f5f5f8;
+}
+@media (max-width: 450px) {
+  .wrap__blog__page {
+    padding: 60px 0 0 0;
+    background-color: #f5f5f8;
+  }
+}
+.wrap__submit__form_blog {
+  padding: 122px 0 120px 96px;
+}
+@media (max-width: 1203px) { 
+  .wrap__submit__form_blog {
+    padding: 118px 32px 118px 32px;
+  }
+}
+@media (max-width: 450px) { 
+  .wrap__submit__form_blog {
+    padding: 83px 32px 80px 32px;
+  }
+}
+.wrap__blog__page h1 {
+  font-family: "Aktiv Grotesk Ex";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 120%;
+  /* or 67px */
+  text-align: center;
+  text-transform: uppercase;
+  color: #2C303B;
+  padding-bottom: 80px;
+  padding-top: 120px;
+}
+@media (max-width: 450px) {
+  .wrap__blog__page h1 {
+    font-size: 40px;
+    line-height: 120%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0 32px 55px 32px;
+  }
+}
+.wrap__blog__page .wrap__blog__page__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 80px;
+  gap: 40px;
+}
+@media (max-width: 1230px) {
+  .wrap__blog__page .wrap__blog__page__list {
+    padding: 0 24px;
+  }
+}
+@media (max-width: 768px) {
+  .wrap__blog__page .wrap__blog__page__list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 450px) {
+  .wrap__blog__page .wrap__blog__page__list {
+    gap: 24px;
+  }
+}
+.wrap__blog__page .wrap__blog__page__list > a {
+  width: calc(33.33% - 27px);
+}
+.wrap__blog__page .wrap__blog__page__list > a:hover {
+  text-decoration: none;
+}
+
+.wrap__blog__page .wrap__blog__page__list > a:hover .wrap__blog__page__list__content p{
+  text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+  .wrap__blog__page .wrap__blog__page__list > a {
+    width: calc(50% - 27px);
+  }
+}
+@media (max-width: 768px) {
+  .wrap__blog__page .wrap__blog__page__list > a {
+    width: 60%;
+  }
+}
+@media (max-width: 600px) {
+  .wrap__blog__page .wrap__blog__page__list > a {
+    width: 80%;
+  }
+}
+@media (max-width: 450px) {
+  .wrap__blog__page .wrap__blog__page__list > a {
+    width: 100%;
+  }
+}
+.wrap__blog__page .wrap__blog__page__list > a img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 1400px) {
+  .wrap__blog__page .wrap__blog__page__list > a img {
+    object-fit: cover;
+  }
+}
+@media (max-width: 450px) {
+  .wrap__blog__page .wrap__blog__page__list > a img {
+    height: 349.64px;
+    object-fit: initial;
+  }
+}
+.wrap__blog__page .wrap__blog__page__list__content {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 0 33px 0 24px;
+  height: 156px;
+}
+@media (max-width: 450px) {
+  .wrap__blog__page .wrap__blog__page__list__content {
+    padding: 0 28.88px 0 21px;
+    height: 136px;
+  }
+}
+.wrap__blog__page .wrap__blog__page__list__content span {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  color: #2C303B;
+  padding: 24px 0 16px 0;
+  display: block;
+}
+@media (max-width: 450px) {
+  .wrap__blog__page .wrap__blog__page__list__content span {
+    padding: 27.97px 0 6.99px 0;
+  }
+}
+.wrap__blog__page .wrap__blog__page__list__content p {
+  font-family: "Aktiv Grotesk Ex";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  text-transform: uppercase;
+  color: #2C303B;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 450px) {
+  .wrap__blog__page .wrap__blog__page__list__content p {
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+.wrap__blog__page .load__more__plus {
+  text-align: center;
+  margin-top: 56px;
+  padding-bottom: 42px;
+}
+
+/* .wrap__blog__page .load__more__plus a:hover {
+  text-decoration: none;
+}  */
+
+.wrap__blog__page .load__more__plus span {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  color: #28245C;
+  position: relative;
+}
+
+@media (max-width: 450px) {
+  .wrap__blog__page .load__more__plus {
+    padding-bottom: 126px;
+    margin-top: 58px;
+  }
+}
+#loadmore__mobile{
+  display: none;
+}
+@media (max-width: 450px) {
+  #loadmore__mobile{
+    display: initial;
+    width: 145px;
+    height: 20px;
+    object-fit: fill;
+  }
+  #loadmore__desktop{
+    display: none;
+  }
+}

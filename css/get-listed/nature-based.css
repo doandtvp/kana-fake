@@ -1,0 +1,32 @@
+.nature-based {
+  text-align: center;
+  padding: 40px 0 62px 0;
+  background-color: #f5f5f8;
+}
+.nature-based_title {
+  color: #808389;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  margin-bottom: 31px;
+}
+.nature-based_logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nature-based_logos-item {
+  margin-right: 158px;
+}
+.nature-based_logos-item:last-child {
+  margin-right: 0;
+}
+@media (max-width: 1366px) {
+  .nature-based_logos-item {
+    margin: 0 40px 40px 40px;
+  }
+  .nature-based_logos-item:last-child {
+    margin-right: 40px;
+  }
+}

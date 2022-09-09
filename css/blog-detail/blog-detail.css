@@ -1,0 +1,969 @@
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+img {
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.hr {
+    max-width: 846px;
+    width: 100%;
+    margin-bottom: 59px;
+    margin-top: -7px;
+}
+
+.hr-content {
+    max-width: 846px;
+    width: 100%;
+    margin-bottom: 59px;
+    margin-top: -7px;
+}
+
+.text-with-images {
+    display: flex;
+    margin: 0 auto;
+    /* padding-left: 81px;
+    padding-right: 81px; */
+    gap: 100px;
+    background-color: #f5f5f8;
+    max-width: 1440px;
+    width: 100%;
+    padding-top: 81px;
+
+}
+
+.text-with-images__text {
+    max-width: 651px;
+    margin-right: 67px;
+    padding-left: 81px;
+    margin-bottom: 127px;
+}
+
+.text-img {
+    max-height: 461px;
+    height: 100%;
+    width: 100%;
+    max-width: 461px;
+}
+
+.text-with-images__text-title-top {
+    color: #abacb1;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 24px;
+    max-width: 651px;
+    width: 100%;
+}
+
+.text-with-images__text-content-top {
+    font-family: "Aktiv Grotesk Ex";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #2c303b;
+    margin-bottom: 24px;
+    word-break: break-word;
+    max-width: 651px;
+    width: 100%;
+}
+
+.text-with-images__text-content-bot {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #2c303b;
+    margin-bottom: 41px;
+    word-break: break-word;
+    max-width: 651px;
+    width: 100%;
+}
+
+.text-with-images__image {
+    padding-right: 32px;
+}
+
+.text-with-images__text-title-bot {
+    color: #abacb1;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+@media (max-width: 1440px) {
+    .text-with-images {
+        padding-top: 128px;
+    }
+
+    .text-with-images__text {
+        /* padding: 0 81px; */
+        margin-right: 0px;
+    }
+
+    .text-with-images__image {
+        margin-left: 67px;
+        margin-top: -8px;
+    }
+
+    /* .text-with-images__image {
+        margin: 0 auto;
+        padding: 0 17px;
+    } */
+}
+
+@media(max-width: 1200px) {
+    .text-with-images {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .text-with-images {
+        flex-direction: column;
+        padding: 55px 0px 53px 0px;
+        gap: 50px;
+        width: 100%;
+
+    }
+
+    .text-with-images__text-title-top {
+        width: 100%;
+        max-width: none;
+    }
+
+    .text-with-images__text-content-top {
+        width: 100%;
+        max-width: none;
+    }
+
+    .text-with-images__text-content-bot {
+        width: 100%;
+        max-width: none;
+    }
+
+    .text-with-images__text {
+        padding: 0 32px;
+        margin: 0;
+        max-width: none;
+    }
+
+    .text-with-images__text-content-top {
+        font-size: 35px;
+    }
+
+    .text-with-images__image {
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+}
+
+/* @media(max-width:768px){
+    .text-with-images__text{
+        max-width: 500px;
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+    .text-with-images__text{
+        max-width: 422px;
+        width: 100%;
+    }
+} */
+@media (max-width: 480px) {
+    .text-with-images__text-content-top {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 414px) {
+    .text-with-images {
+        gap: 0;
+        padding-top: 57px;
+    }
+
+    .text-with-images__text {
+        max-width: 350px;
+        margin-bottom: 55px;
+    }
+
+    .text-with-images__text-title-top {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .text-with-images__text-content-bot {
+        font-size: 16px;
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 22px;
+    }
+
+    .text-with-images__text-title-bot {
+        font-size: 14px;
+        margin-bottom: 56px;
+    }
+
+    .text-img {
+        max-height: 366px;
+        height: 100%;
+        width: 100%;
+        max-width: 366px;
+    }
+
+}
+
+.description {
+    max-width: 846px;
+    /* width: 100%; */
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.description .description-title {
+    font-size: 20px;
+    color: #2c303b;
+    font-weight: 700;
+    font-family: "Space Grotesk", sans-serif;
+    word-break: break-word;
+    line-height: 28px;
+}
+
+
+.description .description-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 138%;
+    color: #2c303b;
+    margin-bottom: 44px;
+    word-break: break-word;
+    /* max-width: 846px;
+    width: 100%; */
+}
+
+#last-description-text {
+    margin-bottom: 65px;
+}
+
+
+.description__top-hover {
+    color: #28245c;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Space Grotesk";
+    padding-bottom: 22px;
+    word-break: break-word;
+    text-decoration: underline;
+}
+
+.description__top-hover:hover {
+    text-decoration: underline;
+}
+
+.description__mid {
+    margin: 0 auto;
+    word-break: break-word;
+    /* max-width: 846px;
+    width: 100%; */
+}
+
+#d-description-mid {
+    display: block;
+}
+
+#m-description-mid {
+    display: none;
+}
+
+.description__mid-img {
+    margin-bottom: 48px;
+}
+
+.description__mid-heading {
+    font-size: 20px;
+    color: #2c303b;
+    font-weight: 700;
+    font-family: "Space Grotesk";
+    padding-bottom: 20px;
+    word-break: break-word;
+    line-height: 28px;
+}
+
+.description__mid-content {
+    font-size: 16px;
+    color: #2c303b;
+    font-weight: 400;
+    font-family: "Space Grotesk";
+    padding-bottom: 45px;
+    word-break: break-word;
+    line-height: 22.1px;
+}
+
+.description__bot {
+    margin: 0 auto;
+    /* max-width: 846px;
+    width: 100%; */
+}
+
+.description__bot-heading {
+    font-size: 20px;
+    color: #2c303b;
+    font-weight: 700;
+    font-family: "Space Grotesk";
+    padding-bottom: 22px;
+    word-break: break-word;
+    line-height: 28px;
+}
+
+.description__bot-content {
+    font-size: 16px;
+    color: #2c303b;
+    font-weight: 400;
+    font-family: "Space Grotesk";
+    padding-bottom: 44px;
+    word-break: break-word;
+    line-height: 22px;
+}
+
+.descrip-mid {
+    max-width: 846px;
+    width: 100%;
+    max-height: 405px;
+    height: 100%;
+    margin-top: -12px;
+    display: block;
+}
+
+.hr1 {
+    max-width: 850px;
+    width: 100%;
+    margin-bottom: 67px;
+    margin-top: 18px;
+}
+
+@media (max-width: 1024px) {
+    .description {
+        padding: 77px 32px 0px 32px;
+    }
+}
+
+@media (max-width: 414px) {
+    .description {
+        padding: 77px 24px 0px 24px;
+    }
+
+    .description .description-title {
+        font-size: 16px;
+        line-height: 22.4px;
+        padding: 0 8px 16px 8px;
+    }
+
+    .description .title-pb-18 {
+        padding-bottom: 18px;
+    }
+
+    .description  .title-wrap {
+        display: none;
+    }
+
+    .description .description-text {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 42px;
+        padding: 0 8px;
+    }
+
+    #text-something {
+        margin-bottom: 58px;
+    }
+
+    #text-something-else {
+        margin-bottom: 51px;
+    }
+
+    .description__top-hover {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .description__mid-img {
+        max-width: 366px;
+        width: 100%;
+        height: 218px;
+        margin-bottom: 39px;
+    }
+
+    .descrip-mid {
+        max-width: 366px;
+        width: 100%;
+        max-height: 218px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #d-description-mid {
+        display: none;
+    }
+    
+    #m-description-mid {
+        display: block;
+    }
+
+    #last-description-text {
+        margin-bottom: 54px;
+    }
+    
+
+    .description__mid-heading {
+        font-size: 16px;
+        line-height: 22.4px;
+        padding-bottom: 19px;
+    }
+
+    .description__mid-content {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 41px;
+    }
+
+    .description__bot-heading {
+        font-size: 16px;
+        line-height: 22.4px;
+        padding-bottom: 18px;
+    }
+
+    .description__bot-content {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 41px;
+    }
+
+    .hr {
+        margin-top: 10px;
+        max-width: 366px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .hr1 {
+        margin-top: 12px;
+        margin-bottom: 46px;
+    }
+
+}
+
+.content {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.content-text {
+    color: #ff865d;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    padding: 0px 0px 74px 0px;
+    letter-spacing: 0.12px;
+    margin: 0;
+}
+
+@media (max-width: 414px) {
+    .content-text {
+        font-size: 24px;
+        line-height: 28.8px;
+        padding: 0 8px 49px 9px;
+    }
+
+    .hr-content {
+        margin-bottom: 54px;
+        margin-top: -9px;
+    }
+}
+
+.text-with-images-vertical {
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-with-images-vertical__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.text-with-images-vertical__top-title {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #2c303b;
+    padding-top: 9px;
+}
+
+.text-with-images-vertical__top-link {
+    color: #FF865D;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.text-with-images-vertical__top-link a {
+    color: #FF865D;
+}
+
+.arrow {
+    width: 8px;
+    height: 8px;
+    margin-left: 5px;
+}
+
+.text-with-images-vertical__top-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-with-images-vertical__bot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.text-with-images-vertical__bot .text-with-images-vertical__bot-products {
+  width: 30.825%;
+}
+
+.text-with-images-vertical__bot-description {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.text-with-images-vertical__bot-description h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #2C303B;
+}
+
+#text-allt_achadh h3 {
+    margin-left: 4px;
+}
+
+.vertical-img {
+    width: 100%;
+    max-width: 366px;
+    height: 100%;
+    max-height: 366px;
+}
+
+.flag {
+    width: 21.5px;
+    height: 16px;
+    margin-left: 12px;
+}
+
+@media(max-width:900px) {
+
+    .text-with-images-vertical__bot {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .text-with-images-vertical__top {
+        padding: 0 32px;
+    }
+
+}
+
+@media(max-width:414px) {
+    .text-with-images-vertical {
+        padding-top: 4px;
+    }
+
+    .text-with-images-vertical__top {
+        display: block;
+    }
+
+    .text-with-images-vertical__top-title {
+        font-size: 16px;
+        padding-bottom: 21px;
+    }
+
+    .text-with-images-vertical__top-link {
+        padding-bottom: 41px;
+    }
+
+    .text-with-images-vertical__bot-description {
+        font-size: 16px;
+        line-height: 120%;
+        padding-top: 21px;
+    }
+
+    .text-with-images-vertical__bot {
+        gap: 62px;
+        padding: 0 24px
+    }
+
+    .text-with-images-vertical__bot-description h3 {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2C303B;
+    }
+
+    #text-allt_achadh h3 {
+        margin-left: 0;
+    }
+
+    .flag {
+        width: 28px;
+        height: 21px;
+        margin-left: 11px;
+    }
+
+    #flag-blackhope {
+        margin-left: 14px;
+    }
+
+    #flag-wesley {
+        margin-left: 9px;
+    }
+}
+
+
+
+.blog-content {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f5f5f8;
+    margin-top: 80px;
+}
+
+.blog-content__heading {
+    font-family: 'Aktiv Grotesk Ex';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2C303B;
+    max-width: 957px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0 63px 0;
+}
+
+.blog-content__products {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-bottom: 41px;
+}
+
+.blog-content__products-description {
+    max-width: 343px;
+    background-color: #fff;
+    padding: 20px 33px 0 24px;
+}
+
+.blog-content__products-description-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2C303B;
+}
+
+.blog-content__products-description-content {
+    margin-top: 14px;
+}
+
+.blog-content__products-description-content p {
+    font-family: 'Aktiv Grotesk Ex';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2C303B;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.blog-content__products-img {
+    height: 400px;
+}
+
+.blog-img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+@media(max-width:414px) {
+    .blog-content{
+        margin-top: 152px;
+    }
+    .blog-content__products {
+        padding: 0 24px;
+        gap: 25.5px;
+    }
+
+    .blog-content__products-top {
+        max-height: 485.5px;
+        height: 100%;
+    }
+
+    .blog-content__products-img {
+        height: 350px;
+    }
+    
+    .blog-content__heading{
+            padding: 80px 0 55px 0;
+    }
+    .blog-content__products-description {
+
+        max-width: 313.85px;
+        padding: 0 30px 0 21.96px;
+
+    }
+
+    .blog-content__products-description {
+        padding-bottom: 37px;
+        padding-top: 24px;
+    }
+
+    .blog-content__products-description-content {
+        margin-top: 5px;
+    }
+
+    .blog-content__products-description-content p {
+        font-size: 14px;
+        line-height: 120%;
+        word-break: break-word;
+        padding-bottom: 0px;
+    }
+    .blog-content__products-description-title{
+        padding-top: 27px;
+        padding-bottom: 7px;
+    }
+    .blog-img {
+        max-height: 350px;
+        height: 100%;
+    }
+
+    .blog-content__heading {
+        font-size: 24px;
+        line-height: 120%;
+    }
+}
+
+.see-the-blog {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
+.see-the-blog a {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #2C303B;
+    padding-right: 8.37px;
+}
+@media(max-width:414px){
+    .see-the-blog{
+         padding-bottom: 0;
+    }
+    .see-the-blog a{
+        padding-right: 12.37px;
+       
+    }
+}
+.take-a-look {
+  background-color: #f5f5f8;
+  padding: 0px 88px 75px 72px;
+}
+.take-alook-wrapper {
+  position: relative;
+}
+.take-alook-wrapper img[alt="take-a-look"]{
+  width:100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+.take-look {
+  position: absolute;
+  top: 35px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.visit-directory {
+  padding-left: 80px;
+}
+
+.visit-directory .title h2 {
+  font-family: 'Aktiv Grotesk Ex';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  max-width: 724px;
+}
+.visit-directory .title .des {
+  max-width: 651px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  max-width: 651px;
+}
+.visit-directory .visit-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 46px;
+}
+.visit-directory .visit-button a.btn-directory {
+    max-width: 302px;
+    margin-right: 32px;
+  } 
+  
+  .visit-directory .visit-button a.link-icon {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;  
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 11px;
+    position: relative;
+  }
+  .visit-directory .visit-button a.link-icon::after {
+    content: url(../../images/common/fi_arrow-right.png);
+    position: absolute;
+    right: -32px;
+  }
+
+@media (max-width:1200px) {
+  .take-a-look {
+    padding: 40px;
+  }
+}
+@media (max-width:1024px) {
+  .take-a-look {
+    padding: 35px 0 0 0;
+  }
+}
+@media (max-width:768px) {
+  .visit-directory {
+    padding: 59.37px 32px 80px;
+  }
+  .visit-directory .title h2 {
+    font-size: 24px;
+    line-height: 120%;
+  -webkit-line-clamp: 3;
+  }
+  .visit-directory .title .des {
+    -webkit-line-clamp: 3;
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .visit-directory .visit-button a.btn-directory{
+    margin-bottom: 24px;
+    max-width: initial;
+  }
+  .take-alook-wrapper img[alt="take-a-look"]{
+    height: 469px;
+    /* height: 473.37px; */
+    width: 100%;
+    object-fit: cover;
+    object-position: 79% 50%;
+    display: block;
+  }
+  .visit-directory .visit-button a.link-icon{
+    font-size: 14px;
+    margin-right: 11px;
+  }
+  .visit-directory .visit-button a.link-icon::after {
+    content: url(../../images/common/fi_arrow-right_mobile.png);
+    position: absolute;
+    right: -23px;
+  }
+  .visit-directory .visit-button{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 39px;
+  }
+  .visit-directory .visit-button a.btn-directory{
+    margin-bottom: 24px;
+  }
+
+  .text-with-images-vertical__bot .text-with-images-vertical__bot-products {
+    width: 100%;
+  }
+}
+

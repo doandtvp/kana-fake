@@ -1,0 +1,210 @@
+.wrap__submit__form {
+  background: #28245c;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 122px 0 120px 96px;
+}
+@media (max-width: 1230px) {
+  .wrap__submit__form {
+    padding: 118px 32px 118px 32px;
+  }
+}
+@media (max-width: 450px) {
+  .wrap__submit__form {
+    padding: 80px 32px;
+  }
+}
+@media (width: 414px) {
+  .wrap__submit__form {
+    padding: 83px 32px 80px 32px;
+  }
+}
+.wrap__submit__form b {
+  font-family: "Aktiv Grotesk Ex";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 48px */
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 56px;
+  display: block;
+}
+@media (max-width: 450px) {
+  .wrap__submit__form b {
+    font-size: 24px;
+    line-height: 120%;
+    padding-bottom: 40px;
+  }
+}
+.wrap__submit__form .submit__form .wrap__top__form__content {
+  display: flex;
+}
+@media (max-width: 450px) {
+  .wrap__submit__form .submit__form .wrap__top__form__content {
+    display: block;
+  }
+}
+.wrap__submit__form .submit__form .wrap__top__form__content .wrap__text__input:last-child {
+  margin-left: 40px;
+}
+@media (max-width: 450px) {
+  .wrap__submit__form .submit__form .wrap__top__form__content .wrap__text__input:last-child {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+}
+.wrap__submit__form .submit__form .wrap__top__form__content .wrap__text__input h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-bottom: 8px;
+}
+
+.wrap__submit__form .submit__form .wrap__top__form__content .wrap__text__input input {
+  height: 48px;
+  width: 411px;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 0 16px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2c303b;
+  outline: none;
+  border-radius: 0;
+  display: inline-block;
+}
+@media (max-width: 925px) {
+  .wrap__submit__form .submit__form .wrap__top__form__content .wrap__text__input {
+    width: calc(100% - 40px);
+  }
+}
+@media (max-width: 450px) {
+  .wrap__submit__form .submit__form .wrap__top__form__content .wrap__text__input {
+    width: 100%;
+  }
+}
+@media (max-width: 925px) {
+  .wrap__submit__form .submit__form .wrap__top__form__content .wrap__text__input input {
+    width: 100%;
+  }
+}
+.wrap__submit__form .submit__form .wrap__message__input {
+  margin-top: 40px;
+}
+@media (max-width: 925px) {
+  .wrap__submit__form .submit__form .wrap__message__input {
+    width: 100%;
+  }
+}
+.wrap__submit__form .submit__form .wrap__message__input h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-bottom: 8px;
+}
+.wrap__submit__form .submit__form .wrap__message__input textarea {
+  width: 862px;
+  padding: 0;
+  border: none;
+  height: 107px;
+  box-sizing: border-box;
+  padding: 16px 16px 17px 16px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  resize: none;
+  color: #2c303b;
+  border: 1px solid #D5D6D8;
+  border-radius: 0;
+}
+.wrap__submit__form .submit__form .wrap__message__input textarea:focus {
+  outline: none;
+  border: 1px solid #D5D6D8;
+  border-radius: 0;
+}
+.wrap__submit__form .submit__form .wrap__message__input textarea:active {
+  outline: none;
+  border: 1px solid #D5D6D8;
+  border-radius: 0;
+}
+@media (max-width: 925px) {
+  .wrap__submit__form .submit__form .wrap__message__input textarea {
+    width: 100%;
+    border: 1px solid #D5D6D8;
+    border-radius: 0;
+  }
+}
+.wrap__submit__form .btn__send__message {
+  margin-top: 75px;
+  width: 411px;
+  height: 50px;
+  padding: 0;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  color: #28245c;
+  cursor: pointer;
+  background-color: white;
+  outline: none;
+  border: none;
+} 
+.wrap__submit__form .btn__send__message:hover {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+} 
+/* .wrap__submit__form .btn__send__message:focus {
+  background: #FFFFFF;
+border: 2px dashed #ABACB1;
+}  */
+.wrap__submit__form .btn__send__message:active {
+background: #FFFFFF !important;
+border: 2px dashed #ABACB1;
+} 
+.wrap__submit__form .btn__send__message:active {
+  background: rgba(255, 255, 255, 0.6);
+}
+@media (max-width: 475px) {
+  .wrap__submit__form .btn__send__message {
+    width: 100%;
+  }
+}
+.wrap__text__input .input{
+  position: relative;
+  transition: all 0.5s;
+}
+.wrap__text__input .input:focus-within::after{
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  outline: 1px dashed #ABACB1;
+}
